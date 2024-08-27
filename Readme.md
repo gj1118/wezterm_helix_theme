@@ -9,8 +9,10 @@ You will need the following installed
 3. Golang
 4. [Just Task Runner](https://github.com/casey/just) (to make your life a lot easy).Also please make sure that `Just` is installed on your path 
 
+## Installing Just
 On MacOs you can use `brew` to install `Just` using the following 
 ```brew install just```
+
 ## Configuring themes 
 In the wezterm lua configuration file (located in the .config folder of your home path - e.g. `/Users/<userfolder>/.config/wezterm/wezterm.lua`) you can add the function below 
 
