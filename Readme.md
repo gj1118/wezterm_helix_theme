@@ -86,7 +86,7 @@ Now, in your helix editor, set yor configuration to load the following theme lik
 `
   theme="wezterm_theme"
 `
-Now whever you change the wezterm theme the corresponding theme will be applied to your helix theme.
+Now whever you change the wezterm theme the corresponding helix theme will be applied to your helix theme. Please dont forget to run `config-reload` in helix just to refresh the editor.
 
 
 ## Go version used 
