@@ -1,6 +1,6 @@
 # Change Helix Theme tool
 
-This is a small tool written in golang that changes the theme of helix whenever the Wezterm theme is changed. 
+This is a small tool written in golang that changes the theme of `Helix` whenever the `Wezterm` theme is changed. 
 
 ## Building 
 You will need [Just Task Runner](https://github.com/casey/just) (to make your life a lot easy). Make sure that `Just` is installed on your path 
