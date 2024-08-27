@@ -50,7 +50,7 @@ and then you can use the following keycombination to cycle through your themes
 Notice that in `themeCycler` function above we have the list of the schemes that we will be targetting.  
 
 
-Similarly in the `main.go` file we have the following map 
+Similarly in the `main.go` (in the folder where you checked out this repo) file we have the following map (Future verisons of this tool might make this configurable)
 
 ```
   var commits = map[string]string{
@@ -67,7 +67,7 @@ Similarly in the `main.go` file we have the following map
 
 ```
 
-This key is the theme that you are using in the wezterm.lua config file and in the `themecycler` function. The value is the `helix` theme you want to get applied when you switch to the corresponding `wezterm` theme.
+The key in the above map are the themes that you are using in the `themecycler` function. Their corresponding values are the `helix` theme you want to get applied when you switch to that `wezterm` theme.
 
 ## Building
 
