@@ -46,7 +46,7 @@ and then you can use the following keycombination to cycle through your themes
   
 ```
 
-Notice that in theme cycler we have the list of the schemes that we are targetting.  
+Notice that in `themeCycler` function above we have the list of the schemes that we are targetting.  
 
 
 Similarly in the `main.go` file we have the following map 
