@@ -1,0 +1,31 @@
+inherits= "catppuccin_latte"
+
+# "ui.background" = "transparent"
+"ui.statusline" = "transparent"
+"ui.statusline.inactive" = { fg = "surface2", bg = "transparent" }
+"ui.window" = {fg="dark"}
+"ui.bufferline" = { fg = "sucbtext0", bg = "transparent" }
+"ui.bufferline.active" = { fg = "crust", bg = "overlay2"}  
+"ui.bufferline.background" = { bg = "transparent" }
+"ui.linenr" = { fg = "line_numbers" }
+"ui.virtual" = {fg="transparent", bg ="transparent"}
+"ui.background.separator" = { fg = "transparent" }
+"ui.virtual.ruler" = { bg = "transparent"}
+# "ui.selection" = { bg = "#4f46e5" }
+# "ui.selection.primary" = { bg = "#4f46e5" }
+"ui.popup" = {  fg = "dark", bg = "transparent"  }
+"ui.cursor.primary.insert" = { bg = "frappe_yellow", fg = "dark" }
+
+
+
+"ui.cursor.match" = { fg = "#212121", bg = "#6C6999" }
+# "ui.cursorline.primary" = { bg = "line_heightlight_col_higlight"}
+# "ui.highlight" = { bg = "dark" }
+
+[palette]
+dark= "#111111"
+window_color = "#484a4d"
+frappe_yellow="#eed49f"
+line_numbers = "#5b6078"
+line_heightlight_col_higlight="#1e2030"
+
