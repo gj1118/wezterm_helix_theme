@@ -12,6 +12,8 @@ You will need the following installed
 ## Installing Just
 On MacOs you can use `brew` to install `Just` using the following 
 ```brew install just```
+For more information please see [this](https://github.com/casey/just?tab=readme-ov-file#installation).
+
 
 ## Configuring themes 
 In the wezterm lua configuration file (located in the .config folder of your home path - e.g. `/Users/<userfolder>/.config/wezterm/wezterm.lua`) you can add the function below 
