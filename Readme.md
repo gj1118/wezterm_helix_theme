@@ -78,6 +78,9 @@ After making sure that you have the prerequistes up and running , run the comman
 3. Copy the generated executable to the wezterm folder (`/Users/<userfolder>/.config/wezterm`)
 
 
+## PLEASE DONT FORGET - 
+You will need to manually copy the `helix_theme.toml` file from this repo to the following location → `/Users/<userfolder>/.config/wezterm`. 
+
 
 
 When you change the wezterm theme using `Alt+t` (if you kept the same settings from this readme file) - then a helix theme (`wezterm_theme.toml`) is created/updated in the following location 
@@ -88,6 +91,8 @@ Now, in your helix editor, set yor configuration to load the following theme lik
 `
 Now whever you change the wezterm theme the corresponding helix theme will be applied to your helix theme. Please dont forget to run `config-reload` in helix just to refresh the editor.
 
+## Configuring themes
+You can configure `helix_theme.toml` anyhow you want. Its just a `helix` theme after all. Please dont change the `inhertits` property as it will be overriden by the script. Any changes that you do in `helix_theme.toml` will be mimiced in the generated `wezterm_theme.toml` helix theme file. The generated `wezterm_theme.toml` is placed in the `/Users/<userfolder>/.config/helix/themes` folder.
 
 ## Go version used 
 1.23.0
