@@ -1,15 +1,15 @@
-#Change Helix Theme
+# Change Helix Theme tool
 
 This is a small tool written in golang that changes the theme of helix whenever the Wezterm theme is changed. 
 
-#Building 
+## Building 
 You will need just task runner (to make your life a lot easy). Make sure that Just is installed on your path 
 
 On MacOs you can use brew to install Just
 
 If you have Just installed, in the folder, run the command just bl to build and copy the artifacts to the wezterm folder. The wezterm folder that it will copy to is /Users/<userfolder>/.config/wezterm
 
-#Configuring themes 
+## Configuring themes 
 In the wezterm lua configuiration file (located in the .config folder of your home path - also listed above) you can add the function below 
 
 ```
@@ -76,5 +76,5 @@ Now, in your helix editor, set yor configuration to load the following theme lik
 Now whever you change the wezterm theme the corresponding theme will be applied to your helix theme.
 
 
-#Go version used 
+## Go version used 
 1.23.0
