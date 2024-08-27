@@ -11,7 +11,7 @@ On MacOs you can use `brew` to install `Just` using the following
 If you have Just installed, run the command `just bl` after you have checked out this repo, to build and copy the artifacts to the helix themes folder. The helix folder that it will copy the generated `helix` theme to is `/Users/<userfolder>/.config/helix/themes`
 
 ## Configuring themes 
-In the wezterm lua configuiration file (located in the .config folder of your home path - e.g. `/Users/<userfolder>/.config/wezterm/wezterm.lua`) you can add the function below 
+In the wezterm lua configuration file (located in the .config folder of your home path - e.g. `/Users/<userfolder>/.config/wezterm/wezterm.lua`) you can add the function below 
 
 ```
   local function themeCycler(window, _)
