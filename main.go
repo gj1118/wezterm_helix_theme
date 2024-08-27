@@ -22,6 +22,8 @@ var commits = map[string]string{
 	"Modus-Operandi":"modus_operandi_tinted",
 	"rose-pine-dawn":"rose_pine_dawn",
 	"rose-pine":"rose_pine",
+	"Tomorrow":"spacebones_light",
+	"Sonokai (Gogh)":"sonokai",
 }
 
 const HELIX_TOML_THEME_FILE_LOCATION = "/Users/gjanjua/.config/helix/themes/wezterm_theme.toml"
