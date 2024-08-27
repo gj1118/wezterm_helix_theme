@@ -3,11 +3,12 @@
 This is a small tool written in golang that changes the theme of helix whenever the Wezterm theme is changed. 
 
 ## Building 
-You will need just task runner (to make your life a lot easy). Make sure that Just is installed on your path 
+You will need [Just Task Runner](https://github.com/casey/just) (to make your life a lot easy). Make sure that `Just` is installed on your path 
 
-On MacOs you can use brew to install Just
+On MacOs you can use `brew` to install `Just` using the following 
+```brew install just```
 
-If you have Just installed, in the folder, run the command just bl to build and copy the artifacts to the wezterm folder. The wezterm folder that it will copy to is /Users/<userfolder>/.config/wezterm
+If you have Just installed, in the folder, run the command `just bl` to build and copy the artifacts to the wezterm folder. The wezterm folder that it will copy to is `/Users/<userfolder>/.config/wezterm`
 
 ## Configuring themes 
 In the wezterm lua configuiration file (located in the .config folder of your home path - also listed above) you can add the function below 
