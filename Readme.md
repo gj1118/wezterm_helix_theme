@@ -8,7 +8,7 @@ You will need [Just Task Runner](https://github.com/casey/just) (to make your li
 On MacOs you can use `brew` to install `Just` using the following 
 ```brew install just```
 
-If you have Just installed, run the command `just bl` after you have checked out this repo, to build and copy the artifacts to the wezterm folder. The helix folder that it will copy the generated `helix` theme to is `/Users/<userfolder>/.config/helix/themes`
+If you have Just installed, run the command `just bl` after you have checked out this repo, to build and copy the artifacts to the helix themes folder. The helix folder that it will copy the generated `helix` theme to is `/Users/<userfolder>/.config/helix/themes`
 
 ## Configuring themes 
 In the wezterm lua configuiration file (located in the .config folder of your home path - also listed above) you can add the function below 
