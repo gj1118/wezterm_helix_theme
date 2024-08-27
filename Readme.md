@@ -67,6 +67,14 @@ Similarly in the `main.go` file we have the following map
 
 This key is the theme that you are using in the wezterm.lua config file and in the `themecycler` function. The value is the `helix` theme you want to get applied when you switch to the corresponding `wezterm` theme.
 
+When you change the wezterm theme using `Alt+t` (if you kept the same settings from this readme file) - then a helix theme (`wezterm_theme.toml`) is created/updated in the following location 
+`/Users/<userfolder>/.config/helix/themes`
+Now, in your helix editor, set yor configuration to load the following theme like so, 
+`
+  theme="wezterm_theme"
+`
+Now whever you change the wezterm theme the corresponding theme will be applied to your helix theme.
+
 
 #Go version used 
 1.23.0
