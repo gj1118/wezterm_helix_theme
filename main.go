@@ -10,20 +10,21 @@ import (
 )
 
 var commits = map[string]string{
-	"Catppuccin Latte":     "catppuccin_latte",
-	"Catppuccin Macchiato": "catppuccin_macchiato",
-	"Catppuccin Mocha":     "catppuccin_mocha",
-	"Everforest Light (Gogh)":    "everforest_light",
-	"Macintosh (base16)":    "curzon",
-	"Tokyo Night":          "tokyonight",
-	"Tokyo Night Moon":     "tokyonight_moon",
-	"Monokai Soda" : "monokai_pro_spectrum",
-	"Kanagawa (Gogh)" : "kanagawa",
-	"Modus-Operandi":"modus_operandi_tinted",
-	"rose-pine-dawn":"rose_pine_dawn",
-	"rose-pine":"rose_pine",
-	"Tomorrow":"spacebones_light",
-	"Sonokai (Gogh)":"sonokai",
+	"Catppuccin Latte":              "catppuccin_latte",
+	"Catppuccin Macchiato":          "catppuccin_macchiato",
+	"Catppuccin Mocha":              "catppuccin_mocha",
+	"Everforest Light (Gogh)":       "everforest_light",
+	"Macintosh (base16)":            "curzon",
+	"Tokyo Night":                   "tokyonight",
+	"Tokyo Night Moon":              "tokyonight_moon",
+	"Monokai Soda":                  "monokai_pro_spectrum",
+	"Kanagawa (Gogh)":               "kanagawa",
+	"Modus-Operandi":                "modus_operandi_tinted",
+	"rose-pine-dawn":                "rose_pine_dawn",
+	"rose-pine":                     "rose_pine",
+	"Tomorrow":                      "spacebones_light",
+	"Sonokai (Gogh)":                "sonokai",
+	"Brewer (dark) (terminal.sexy)": "amberwood",
 }
 
 const HELIX_TOML_THEME_FILE_LOCATION = "/Users/gjanjua/.config/helix/themes/wezterm_theme.toml"
